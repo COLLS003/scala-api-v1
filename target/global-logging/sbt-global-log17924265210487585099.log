@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Debian Java 17.0.9-ea)
+[debug] Load.defaultLoad until apply took 279.67718ms
+[debug]           Load.loadUnit: plugins took 190.367133ms
+[debug]           Load.loadUnit: defsScala took 0.536574ms
+[debug] [Loading] Scanning directory /home/hash/Desktop/scala/tutorial/hh/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/hash/Desktop/scala/tutorial/hh/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 43.532774 ms
+[debug]               Load.resolveProject(hh-build) took 100.351488ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hh-build, base: /home/hash/Desktop/scala/tutorial/hh/project, plugins: List(<none>))) took 187.947493ms
+[debug] [Loading] Done in /home/hash/Desktop/scala/tutorial/hh/project, returning: (hh-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 234.691016ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.524217ms
+[debug]         Load.loadUnit(file:/home/hash/Desktop/scala/tutorial/hh/project/, ...) took 441.41535ms
+[debug]       Load.apply: load took 836.128529ms
+[debug]       Load.apply: resolveProjects took 13.097496ms
+[debug]       Load.apply: finalTransforms took 175.856793ms
+[debug]       Load.apply: config.delegates took 20.931437ms
+[debug]       Load.apply: Def.make(settings)... took 995.59004ms
+[debug]       Load.apply: structureIndex took 242.405746ms
+[debug]       Load.apply: mkStreams took 2.452655ms
+[info] loading project definition from /home/hash/Desktop/scala/tutorial/hh/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4146.315946ms
+[debug]     Load.loadUnit: defsScala took 0.009567ms
+[debug] [Loading] Scanning directory /home/hash/Desktop/scala/tutorial/hh
+[debug]       Load.loadUnit: mkEval took 9.508098ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.407761 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 8.833365ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/hash/Desktop/scala/tutorial/hh, plugins: List(<none>))) took 19.033005ms
+[debug] [Loading] Done in /home/hash/Desktop/scala/tutorial/hh, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5763.830538ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.891846ms
+[debug]   Load.loadUnit(file:/home/hash/Desktop/scala/tutorial/hh/, ...) took 9922.446691ms
+[debug] Load.apply: load took 9956.17154ms
+[debug] Load.apply: resolveProjects took 0.180544ms
+[debug] Load.apply: finalTransforms took 45.644109ms
+[debug] Load.apply: config.delegates took 0.804247ms
+[debug] Load.apply: Def.make(settings)... took 193.713002ms
+[debug] Load.apply: structureIndex took 76.359229ms
+[debug] Load.apply: mkStreams took 0.003867ms
+[info] set current project to hh (in build file:/home/hash/Desktop/scala/tutorial/hh/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/hash/.sbt/1.0/server/4223b92f54481ea2d558/sock
+[debug] Writing bsp connection file
+[info] started sbt server
